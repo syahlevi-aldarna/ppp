@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Gaya global tambahan */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6; /* Warna latar belakang default */
+}
+
+button {
+  outline: none;
+}
+
+video {
+  border-radius: 8px;
+  background-color: #000; /* Warna latar belakang video */
+}

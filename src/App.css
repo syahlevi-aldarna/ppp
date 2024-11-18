@@ -1,0 +1,24 @@
+/* App.css */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+input[type="range"] {
+  appearance: none;
+  background: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #3b82f6; /* Warna biru */
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  background: #d1d5db; /* Warna abu-abu */
+  border-radius: 2px;
+}
